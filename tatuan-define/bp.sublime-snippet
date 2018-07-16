@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+@include breakpoint(${1:lg}){
+	
+}
+]]></content>
+	<tabTrigger>ibp:t</tabTrigger>
+	<!-- <scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope> -->
+	<description>mixin breakpoint</description>
+</snippet>

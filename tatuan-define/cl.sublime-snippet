@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@include clearfix();
+]]></content>
+	<tabTrigger>icl:t</tabTrigger>
+	<!-- <scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope> -->
+	<description>clearfix mixin</description>
+</snippet>
