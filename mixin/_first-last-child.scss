@@ -1,0 +1,48 @@
+// ====================================
+// Mixins
+// ====================================
+
+/*
+* TABLE OF CONTENTS
+*
+* Last-child
+*/
+
+
+
+/* > Last-child */
+
+// Note: for verticle and horizol last-child
+@mixin last-x {
+    .is-last {
+        margin-right: 0;
+        padding-right: 0;
+        border-right: none;
+        background: none;
+    }
+}
+@mixin last-y {
+    .is-last {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+        background: none;
+    }
+}
+
+@mixin first-x {
+    .is-first {
+        margin-left: 0;
+        padding-left: 0;
+        border-left: none;
+        background: none;
+    }
+}
+@mixin first-y {
+    .is-first {
+        margin-top: 0;
+        padding-top: 0;
+        border-top: none;
+        background: none;
+    }
+}
